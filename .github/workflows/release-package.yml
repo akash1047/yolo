@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       packages: write
-      cnotents: read
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
